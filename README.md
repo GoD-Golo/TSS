@@ -2,7 +2,7 @@
 
 [![ShoppingCart CI](https://github.com/GoD-Golo/TSS/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/GoD-Golo/TSS/actions/workflows/ci.yml)
 
-Proiect pentru disciplina Testarea sistemelor software, tema T1. Proiectul testeaza clasa `ShoppingCart`, o componenta simpla pentru un magazin online. Clasa permite adaugarea produselor in cos si calculeaza subtotalul, discountul, TVA-ul, costul transportului si totalul final al comenzii.
+Proiectul testeaza clasa `ShoppingCart`, o componenta simpla pentru un magazin online. Clasa permite adaugarea produselor in cos si calculeaza subtotalul, discountul, TVA-ul, costul transportului si totalul final al comenzii.
 
 ## Structura repository
 
@@ -252,15 +252,6 @@ Pipeline-ul:
 6. ruleaza mutation testing intr-un job separat, optional;
 7. publica rezultatele mutation testing ca artefact.
 
-Notificarea la esec poate fi demonstrata prin notificarile GitHub pentru
-workflow failures. Optional, se poate adauga in repository secretul
-`DISCORD_WEBHOOK_URL`, iar workflow-ul trimite automat un mesaj pe webhook cand
-jobul principal esueaza.
-
-Pentru demonstrarea notificarii, se poate introduce intentionat un bug, de
-exemplu schimbarea unei reguli de calcul din `shopping_cart.py`, se face push,
-apoi se captureaza notificarea sau pagina workflow-ului esuat.
-
 ## Referinte
 
 [1] Python Software Foundation, `unittest` - Unit testing framework, https://docs.python.org/3/library/unittest.html, Data ultimei accesari: 2 mai 2026.
@@ -270,5 +261,3 @@ apoi se captureaza notificarea sau pagina workflow-ului esuat.
 [3] Aniche, Mauricio, Effective Software Testing: A developer's guide, Manning Publications, 2022.
 
 [4] Khorikov, Vladimir, Unit Testing Principles, Practices, and Patterns, Manning Publications, 2020.
-
-[5] OpenAI, ChatGPT, https://chatgpt.com/, Data generarii: 2 mai 2026.
