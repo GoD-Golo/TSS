@@ -1,0 +1,10 @@
+[run]
+source = tss_project
+branch = True
+
+[report]
+show_missing = True
+skip_covered = False
+
+[html]
+directory = htmlcov

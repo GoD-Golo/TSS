@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.mutation_tmp/
+.coverage
+htmlcov/
+linear_search_project/
