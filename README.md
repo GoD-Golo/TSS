@@ -1,6 +1,6 @@
 # T1 - Testare unitara in Python
 
-[![ShoppingCart CI](https://github.com/GoD-Golo/TSS/actions/workflows/ci.yml/badge.svg)](https://github.com/GoD-Golo/TSS/actions/workflows/ci.yml)
+[![ShoppingCart CI](https://github.com/GoD-Golo/TSS/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/GoD-Golo/TSS/actions/workflows/ci.yml)
 
 Proiect pentru disciplina Testarea sistemelor software, tema T1. Proiectul testeaza clasa `ShoppingCart`, o componenta simpla pentru un magazin online. Clasa permite adaugarea produselor in cos si calculeaza subtotalul, discountul, TVA-ul, costul transportului si totalul final al comenzii.
 
