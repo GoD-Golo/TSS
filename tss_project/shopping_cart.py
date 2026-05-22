@@ -11,7 +11,7 @@ class CartItem:
 class ShoppingCart:
     """Calculates the final total for an online shopping cart."""
 
-    VAT_RATE = 0.20
+    VAT_RATE = 0.19
     DISCOUNT_THRESHOLD = 500.0
     DISCOUNT_RATE = 0.10
     FREE_SHIPPING_THRESHOLD = 300.0
