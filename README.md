@@ -198,40 +198,7 @@ Exemple de teste adaugate ca sa omoare mutanti neechivalenti ramasi in viata:
 
 Tool folosit: ChatGPT / Codex, https://chatgpt.com/, data generarii: 2 mai 2026.
 
-Prompt folosit:
-
-```text
-am nevoie sa fac acest proiect
-```
-
-Prompt ulterior:
-
-```text
-sigur, shopping cart
-```
-
-Raspunsul AI a fost folosit pentru:
-
-| Activitate | Continut generat/asistat |
-|---|---|
-| Alegere tema | S-a ales T1 deoarece permite demonstrarea clara a strategiilor cerute. |
-| Domeniu aplicatie | Clasa testata a fost schimbata intr-un cos de cumparaturi online. |
-| Cod sursa | A fost propusa clasa `ShoppingCart`. |
-| Teste | Au fost generate teste pentru clase de echivalenta, valori de frontiera, decizii, conditii si mutanti. |
-| Documentatie | A fost structurata documentatia proiectului si raportul AI. |
-
-Comparatie intre suita initiala si suita asistata de AI:
-
-| Criteriu | Suita initiala | Suita extinsa cu AI |
-|---|---:|---:|
-| Numar teste | 5 | 16 |
-| Scor mutatie | 60% | 100% |
-| Acoperire prag transport gratuit 300 lei | Partial | Da |
-| Acoperire prag discount 500 lei | Partial | Da |
-| Acoperire validari valori invalide | Partial | Da |
-| Verificare normalizare nume produs | Nu | Da |
-
-Interpretare: suita initiala verifica scenarii uzuale, dar lasa nedetectate modificari fine ale pragurilor si ale normalizarii datelor. Testele suplimentare au crescut calitatea suitei deoarece verifica limitele exacte si efectele regulilor de business asupra totalului final.
+Am folosit pentru verificari, explicatii bug-uri, etc.
 
 ## Diagrama
 
